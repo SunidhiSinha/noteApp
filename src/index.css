@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap');
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+code {
+  font-family: 'Raleway', 'Courier New', monospace;
+}
+
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+  min-height: 20rem;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.inputField {
+  width: 100%;
+}
+h1 {
+  margin-left: 20px;
+}
+
+button {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: floralwhite;
+}
